@@ -1,0 +1,23 @@
+{
+  "name": "dinner-club",
+  "version": "1.0.0",
+  "description": "Simplify group gatherings",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bensojka/dinner-club.git"
+  },
+  "author": "Doug Leckie",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.3.6"
+  }
+}
